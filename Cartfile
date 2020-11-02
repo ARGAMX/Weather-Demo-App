@@ -1,0 +1,25 @@
+
+github "Moya/Moya" ~> 14.0.0
+github "antitypical/Result" ~> 5.0.0
+github "SwiftyJSON/SwiftyJSON" ~> 5.0.0
+
+#########################################################
+# UI
+#########################################################
+
+github "Instagram/IGListKit" ~> 3.4.0
+github "michaeltyson/TPKeyboardAvoiding" ~> 1.3.4
+github "ninjaprox/NVActivityIndicatorView" ~> 4.8.0
+github "SwiftKickMobile/SwiftMessages" ~> 7.0.1
+
+#########################################################
+# Persistance
+#########################################################
+
+github "realm/realm-cocoa" ~> 3.12.0
+
+#########################################################
+# Misc
+#########################################################
+
+github "onevcat/Kingfisher" ~> 5.14.0

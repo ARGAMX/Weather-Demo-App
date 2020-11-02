@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TownWeatherVC" customModule="Weather" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionView" destination="egG-fh-TDW" id="yYL-Oh-5Ic"/>
+                <outlet property="view" destination="QJG-GS-aCa" id="XDk-i5-LbW"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="QJG-GS-aCa">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="egG-fh-TDW" customClass="TPKeyboardAvoidingCollectionView">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ATz-cD-pEl">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="egG-fh-TDW" firstAttribute="trailing" secondItem="aXK-M0-bua" secondAttribute="trailing" id="2po-5I-nx2"/>
+                <constraint firstItem="aXK-M0-bua" firstAttribute="top" secondItem="egG-fh-TDW" secondAttribute="top" id="FHo-M6-VXC"/>
+                <constraint firstItem="aXK-M0-bua" firstAttribute="bottom" secondItem="egG-fh-TDW" secondAttribute="bottom" id="OdH-kc-eDX"/>
+                <constraint firstItem="egG-fh-TDW" firstAttribute="leading" secondItem="aXK-M0-bua" secondAttribute="leading" id="P8a-7Z-8Ff"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="aXK-M0-bua"/>
+            <point key="canvasLocation" x="-197.10144927536234" y="-211.60714285714286"/>
+        </view>
+    </objects>
+</document>
